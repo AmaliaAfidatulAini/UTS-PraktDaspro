@@ -13,7 +13,6 @@ public class No3 {
         System.out.print("Masukkan rating (1-100): ");
         rating = input.nextInt();
         System.out.print("Apakah memiliki sertifikasi (ya/tidak): ");
-        sertifikasi = input.next();
         System.out.println();
 
         if (omzet < 0 || rating < 1 || rating > 100) {
@@ -21,6 +20,7 @@ public class No3 {
         } else {
             double persenKomisi = 0;
             double bonusSertifikasi = 0;
+        sertifikasi = input.next();
             double totalKomisi;
 
             if (rating < 70) {
