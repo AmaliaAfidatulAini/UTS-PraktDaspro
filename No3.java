@@ -12,7 +12,7 @@ public class No3 {
         omzet = input.nextDouble();
         System.out.print("Masukkan rating (1-100): ");
         rating = input.nextInt();
-        System.out.print("Apakah memiliki sertifikasi (ya/tidak): ");
+        System.out.print("Apakah Memiliki Sertifikasi (ya/tidak): ");
         System.out.println();
 
         if (omzet < 0 || rating < 1 || rating > 100) {
