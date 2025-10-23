@@ -10,7 +10,7 @@ public class No2 {
         System.out.print("Masukkan usia (tahun): ");
         usia = input.nextInt();
 
-        System.out.print("Masukkan HR Saat Latihan (denyut/menit): ");
+        System.out.print("Masukkan HR saat latihan (denyut/menit): ");
         hr = input.nextDouble();
 
         if (usia < 10 || usia > 100 || hr <= 0) {
