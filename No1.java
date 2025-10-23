@@ -7,7 +7,6 @@ public class No1 {
         int angka1, angka2, angka3;
         int terkecil;
 
-        System.out.println("Program Menentukan Bilangan Terkecil dari Tiga Angka");
         System.out.print("Masukkan angka pertama: ");
         angka1 = sc.nextInt();
         System.out.print("Masukkan angka kedua: ");
