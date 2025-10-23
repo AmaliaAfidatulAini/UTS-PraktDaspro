@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class No1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int angka1, angka2, angka3;
         int terkecil;
 
@@ -21,7 +20,6 @@ public class No1 {
         if (angka3 < terkecil) {
             terkecil = angka3;
         }
-
         int sama = 0;
 
         if (angka1 == terkecil) sama++;
